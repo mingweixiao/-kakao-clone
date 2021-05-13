@@ -1,4 +1,4 @@
-.nav{
+.nav {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -7,15 +7,18 @@
     box-sizing: border-box;
     border-top: 1px solid rgba(0, 0, 0, 0.3)
 }
-.nav__list{
+
+.nav__list {
     display: flex;
     justify-content: space-between;
 }
-.nav__link{
+
+.nav__link {
     color: #2e363e;
     position: relative;
 }
-.nav__notification{
+
+.nav__notification {
     background-color: tomato;
     width: 30px;
     height: 30px;
@@ -29,7 +32,8 @@
     left: 15px;
     bottom: 17px;
 }
-.nav__information{
+
+.nav__information {
     width: 10px;
     height: 10px;
     border-radius: 5px;
